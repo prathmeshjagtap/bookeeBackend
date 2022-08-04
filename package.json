@@ -4,8 +4,10 @@
   "main": "index.js",
   "author": "StudioYou",
   "license": "MIT",
+ 
   "scripts": {
-    "start": "nodemon ./api/server.js --exec babel-node"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./api/server.js"
   },
   "dependencies": {
     "@babel/core": "^7.18.10",
